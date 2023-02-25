@@ -27,7 +27,7 @@ def generate_email():
         # Generate a random username by combining two words
         username = random.choice(adjectives) + random.choice(nouns) + str(num1) + str(num2)
 
-    # Combinevan username & domain to get a complete e-mailadres
+    # Combination of username & domain to get a complete e-mailadres
     email = username + "@" + domain
     return email
 
